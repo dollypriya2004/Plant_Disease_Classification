@@ -4,33 +4,34 @@ This project aims to classify plant diseases using deep learning, specifically b
 1. Dataset
 Source: New Plant Diseases Dataset (Kaggle)
 
-The dataset can be downloaded from :
+ The dataset can be downloaded from :
 https://www.kaggle.com/vipoooool/new-plant-diseases-dataset
 The weights can be downloaded from:
 https://www.kaggle.com/boulaalamcfk/modelalexnet-and-best-weights-9
 
-The dataset includes images of healthy and diseased plant leaves, categorized into various classes such as Tomato, Potato, Apple, Grape, etc.
+  The dataset includes images of healthy and diseased plant leaves, categorized into various classes such as Tomato, Potato, Apple, Grape, etc.
 
-Model & Weights
-Model: AlexNet
+ Model & Weights
+ Model: AlexNet
 
 2. Pretrained Weights: Model and Best Weights
 
-AlexNet is a convolutional neural network known for its performance on image classification tasks. Here, it is fine-tuned on plant leaf images for accurate disease prediction.
+ AlexNet is a convolutional neural network known for its performance on image classification tasks. Here, it is fine-tuned on plant leaf images for accurate disease 
+ prediction.
 
 3. Features
-Image preprocessing using standard techniques like resizing, normalization, and augmentation.
+ Image preprocessing using standard techniques like resizing, normalization, and augmentation.
 
-Transfer learning using pretrained AlexNet.
+ Transfer learning using pretrained AlexNet.
 
-Training, validation, and testing on real plant leaf data.
+ Training, validation, and testing on real plant leaf data.
 
-Evaluation using metrics like accuracy, precision, and confusion matrix.
+ Evaluation using metrics like accuracy, precision, and confusion matrix.
 
-Easy-to-use and modify for other plant datasets.
+ Easy-to-use and modify for other plant datasets.
 
 4. Results
-Achieved high accuracy on both validation and test sets.
+ Achieved high accuracy on both validation and test sets.
 
-Well-generalized model for multiple plant disease types.
+ Well-generalized model for multiple plant disease types.
 
